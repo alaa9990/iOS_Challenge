@@ -9,6 +9,7 @@ target 'iOS_Challenge' do
 
 pod 'Alamofire', '~> 5.2'
 pod 'Kingfisher', '~> 6.0'
+pod 'lottie-ios'
 
   target 'iOS_ChallengeTests' do
     inherit! :search_paths
@@ -16,6 +17,7 @@ pod 'Kingfisher', '~> 6.0'
 
 pod 'Alamofire', '~> 5.2'
 pod 'Kingfisher', '~> 6.0'
+pod 'lottie-ios'
   end
 
   target 'iOS_ChallengeUITests' do
@@ -23,6 +25,7 @@ pod 'Kingfisher', '~> 6.0'
 
 pod 'Alamofire', '~> 5.2'
 pod 'Kingfisher', '~> 6.0'
+pod 'lottie-ios'
   end
 
 end
