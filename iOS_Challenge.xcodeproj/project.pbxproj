@@ -10,6 +10,7 @@
 		037B46BAB48BF5DB4B5B219C /* Pods_iOS_Challenge_iOS_ChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1EA5ECAB723BEF3EA8E4468 /* Pods_iOS_Challenge_iOS_ChallengeUITests.framework */; };
 		22D2EE58224A18DE737DB578 /* Pods_iOS_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30B7362B87F03811082F9EC /* Pods_iOS_Challenge.framework */; };
 		A457DA302E38E6DF00C83C7A /* PopularMoviesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A457DA2F2E38E6DF00C83C7A /* PopularMoviesViewModelTests.swift */; };
+		A457DA322E38E84A00C83C7A /* UpcomingMoviesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A457DA312E38E84A00C83C7A /* UpcomingMoviesViewModelTests.swift */; };
 		A4746D5C2E37BC95007743B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4746D512E37BC95007743B3 /* LaunchScreen.storyboard */; };
 		A4746D602E37BC97007743B3 /* NowPlayingMoviesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4746D5E2E37BC97007743B3 /* NowPlayingMoviesViewModelTests.swift */; };
 		A4746D642E37BC9A007743B3 /* iOS_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4746D612E37BC9A007743B3 /* iOS_ChallengeUITests.swift */; };
@@ -107,6 +108,7 @@
 		8A36DD41B831D700CD2DC00F /* Pods-iOS_Challenge-iOS_ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Challenge-iOS_ChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Challenge-iOS_ChallengeUITests/Pods-iOS_Challenge-iOS_ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D53DC5F3C08BF85C626091A /* Pods-iOS_Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Challenge.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Challenge/Pods-iOS_Challenge.debug.xcconfig"; sourceTree = "<group>"; };
 		A457DA2F2E38E6DF00C83C7A /* PopularMoviesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesViewModelTests.swift; sourceTree = "<group>"; };
+		A457DA312E38E84A00C83C7A /* UpcomingMoviesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMoviesViewModelTests.swift; sourceTree = "<group>"; };
 		A4746CED2E37ADAA007743B3 /* iOS_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4746D032E37ADAD007743B3 /* iOS_ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_ChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4746D0D2E37ADAD007743B3 /* iOS_ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_ChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -268,6 +270,7 @@
 			children = (
 				A4746D5E2E37BC97007743B3 /* NowPlayingMoviesViewModelTests.swift */,
 				A457DA2F2E38E6DF00C83C7A /* PopularMoviesViewModelTests.swift */,
+				A457DA312E38E84A00C83C7A /* UpcomingMoviesViewModelTests.swift */,
 			);
 			path = iOS_ChallengeTests;
 			sourceTree = "<group>";
@@ -1064,6 +1067,7 @@
 			files = (
 				A4746D602E37BC97007743B3 /* NowPlayingMoviesViewModelTests.swift in Sources */,
 				A457DA302E38E6DF00C83C7A /* PopularMoviesViewModelTests.swift in Sources */,
+				A457DA322E38E84A00C83C7A /* UpcomingMoviesViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
