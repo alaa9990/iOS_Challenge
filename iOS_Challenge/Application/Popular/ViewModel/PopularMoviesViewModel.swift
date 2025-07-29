@@ -7,7 +7,7 @@
 import Foundation
 import Combine
 
-final class PopularMoviesViewModel: BaseViewModel {
+class PopularMoviesViewModel: BaseViewModel {
     
     //MARK: - Properties -
     private(set) var isLoading: PassthroughSubject<Bool, Never> = .init()
@@ -20,9 +20,6 @@ final class PopularMoviesViewModel: BaseViewModel {
     var currentPageNumber: Int {
         return currentPage
     }
-    
-    
-    
     
     //MARK: - Networking -
     func popularMoviesApi(page: Int) {

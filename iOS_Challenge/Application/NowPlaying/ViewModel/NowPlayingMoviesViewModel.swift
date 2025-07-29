@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-final class NowPlayingMoviesViewModel: BaseViewModel {
+class NowPlayingMoviesViewModel: BaseViewModel {
     
     //MARK: - Properties -
     private(set) var isLoading: PassthroughSubject<Bool, Never> = .init()
